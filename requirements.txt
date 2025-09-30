@@ -1,0 +1,13 @@
+ddgs>=0.4.0
+# fallback/backcompat: duckduckgo-search
+duckduckgo-search>=2.0.0
+
+# Core orchestration & LLM client
+crewai>=0.51.0
+langchain-community>=0.2.17
+langchain-core>=0.2.41
+
+# Optional but common transitive deps pinned loosely for Windows stability
+pydantic>=2.8.0
+typing-extensions>=4.12.0
+json5>=0.9.14
